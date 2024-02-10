@@ -90,7 +90,6 @@ ol {
   min-width: 711px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 16px;
 }
 
@@ -114,9 +113,9 @@ ol {
 /* Форма для поиска */
 .search-form {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-end;
-  gap: 40px;
+  gap: 38px;
 }
 
 .search-form__fieldset {
@@ -204,14 +203,14 @@ ol {
   height: 19px;
   box-sizing: border-box;
   border: 1px solid #fff;
-  margin-right: 5px;
+  margin-right: 4px;
   margin-left: 2px;
-  vertical-align: middle;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox  {
   background: url(../images/input-checked.svg) center no-repeat; 
-  background-size: contain;
+  background-size: 15px;
+  object-fit: contain;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -240,7 +239,7 @@ ol {
   line-height: 0.94;
   text-transform: uppercase;
   box-sizing: border-box;
-  /* margin-top: 2px; */
+  margin-top: 9px;
 }
 
 .content__accent {
