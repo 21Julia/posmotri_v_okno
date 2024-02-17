@@ -86,7 +86,7 @@ ol {
 /* Основной контент */
 .content {
   max-width: calc(100% - 60px);
-  margin: 277px auto 27px;
+  margin: 127px auto;
   display: flex;
   gap: 30px;
 }
