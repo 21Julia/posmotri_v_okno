@@ -351,9 +351,8 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
-  max-height: 65px;
+  height: 65px;
   overflow-y: hidden;
-  text-overflow: ellipsis;
 }
 
 .content__video-card-thumbnail {
